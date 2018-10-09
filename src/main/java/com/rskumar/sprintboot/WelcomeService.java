@@ -10,7 +10,8 @@ public class WelcomeService {
 	private String welcomeMessage;
 
 	public String retrieveWelcomeMessage() {
-		//Complex Method
+		int i=0;
+		System.out.println("Returning the welcome message:"+welcomeMessage);
 		return welcomeMessage;
 	}
 }
