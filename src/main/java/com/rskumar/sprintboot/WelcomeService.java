@@ -10,6 +10,7 @@ public class WelcomeService {
 	private String welcomeMessage;
 
 	public String retrieveWelcomeMessage() {
+		int i=0;
 		System.out.println("Returning the welcome message:"+welcomeMessage);
 		return welcomeMessage;
 	}
